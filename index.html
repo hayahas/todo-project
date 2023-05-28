@@ -2,22 +2,24 @@
 <html lang="en">
 <head> 
     
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="style.css"/>
 
 </head>
 <body>
 <header>
-<img src="user.png/desktop" alt="user photo" /> <label>Haya Hassan</label>
-<a>Home</a>
-<a >Profile</a>
-<a href="about.html">About</a>
-<a>Contact</a>
+<span class="logo_name"><img src="user.png/desktop" alt="user photo" /> <label>Haya Hassan</label> 
+<a class="item">Home</a>
+<a class="item">Profile</a>
+<a class="item" href="about.html">About</a>
+<a class="item">Contact</a>
 </header>
 <main>
-   <table>
+   <table class="task">
 <thead><td>Task</td><td>Date</td><td>Status</td></thead>
-<tr><td>Lab 01</td><td>22/5/23</td><td>Submitted</td></tr>
-<tr><td>Lab 02</td><td>23/5/23</td><td>Submitted</td></tr>
-<tr><td>Lab 03</td><td>24/5/23</td><td>Under Process</td></tr>
+<tr><td>Lab 01</td><td>22/5/23</td><td style="background-color: green">Submitted</td></tr>
+<tr><td>Lab 02</td><td>23/5/23</td><td  style="background-color: green">Submitted</td></tr>
+<tr><td>Lab 03</td><td>24/5/23</td><td  style="background-color: red">Under Process</td></tr>
 <tfoot></tfoot>
    </table>
 </main>
