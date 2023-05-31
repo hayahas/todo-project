@@ -1,0 +1,136 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+header{
+    height:90px;
+    width: 100vw;
+    left:0;
+    right:0;
+    top:40px;
+    background-color: #408E91;
+    
+}
+
+img{
+height:35px;
+    width:35px;
+    margin: auto;
+    border: 1px solid;
+}
+
+
+table, th, td {
+    border: 1px solid;
+    margin:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    
+  }
+
+ table thead{
+    font-style:italic;
+    font-weight: bold;
+
+  }
+  
+  .tasks{
+    font-style:italic;
+    font-weight: bold;
+
+  }
+
+
+footer{
+    height:50px;
+    width: 100vw;
+    left:0;
+    right:0;
+    bottom:0;
+    position:absolute;
+    background-color:#408E91;
+    justify-content: center;
+}
+
+
+header div{
+    padding-top: 30px;
+    padding-left: 60vw;
+}
+
+
+footer div{
+    padding-top: 15px;
+    padding-left: 30vw;
+    display: inline-block;}
+
+footer a{
+    border: 1px solid;
+color:whitesmoke;
+padding-inline: 0px;
+padding-left:15px;
+padding-right:15px;
+padding-top:5px;
+padding-bottom:5px;
+background-color: #E49393;
+
+
+
+}
+
+header a{
+    
+padding-inline: 0px;
+padding-left:15px;
+padding-right:15px;
+padding-top:5px;
+padding-bottom:5px;
+display: flex;
+text-align: end;
+}
+list{
+
+    width:100%;
+    display:flex;
+}
+
+.logo_name{
+    border: 1px solid;
+    color:whitesmoke;
+    padding-left:20px;
+    float: left;
+    display: inline-block;
+    background-color: #E49393;
+    font-weight: bolder;
+    margin:20px;
+padding-left:15px;
+padding-right:15px;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+
+
+.item{
+    border: 1px solid;
+    background-color: #E49393;
+    display: inline-block;
+    color:whitesmoke;
+margin-left:15px;
+}
+
+
+h3{
+    padding-left:30px;
+    color:#408E91;
+    font-style:italic;
+    font-weight: bold;
+
+}
+
+p{
+    padding-left:40px;
+    color:black;
+}
